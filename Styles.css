@@ -577,10 +577,10 @@ footer{
     .mode .mode-text{
         display: block;
     }
-    
-    /* <===== Common =====>*/
-    
-   .home-wrapper,
+
+    /* <===== Common =====> */
+
+    .home-wrapper,
     .skills-wrapper,
     .about-wrapper,
     .portfolio-wrapper{
@@ -643,7 +643,12 @@ footer{
 }
 
 .about-details p{
+    width: 100%;
     text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--text-color);
+    margin-top: 30px;
 }
 
 /* <=== Portfolio ===> */
@@ -655,12 +660,10 @@ footer{
 .portfolio-cards .project-img{
     order: -1;
 }
-    
- .project-details .project-links a{
+
+.project-details .project-links a{
     font-size: 15px;
 }
-    
- 
 
 /* <=== Footer ===> */
 
