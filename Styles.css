@@ -577,6 +577,15 @@ footer{
     .mode .mode-text{
         display: block;
     }
+    
+    /* <===== Common =====>*/
+    
+   .home-wrapper,
+    .skills-wrapper,
+    .about-wrapper,
+    .portfolio-wrapper{
+        width: 100%;
+    }
 
 /* <==== Home ====> */
 
@@ -646,6 +655,12 @@ footer{
 .portfolio-cards .project-img{
     order: -1;
 }
+    
+ .project-details .project-links a{
+    font-size: 15px;
+}
+    
+ 
 
 /* <=== Footer ===> */
 
